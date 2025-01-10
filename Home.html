@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" />
+    <link rel="stylesheet" href="css/Home.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Smallville</title>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar  fixed-top custom-nav">
+      <div class="container-fluid">
+        <a class="navbar-brand coloring" href="#">Smallville</a>
+        <button
+          class="navbar-toggler custom-toggler"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasNavbar"
+          aria-controls="offcanvasNavbar"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="offcanvas offcanvas-end custom-nav"
+          tabindex="-1"
+          id="offcanvasNavbar"
+          aria-labelledby="offcanvasNavbarLabel"
+        >
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title custom-nav" id="offcanvasNavbarLabel">
+              Smallville
+            </h5>
+            <button
+              type="button"
+              class="btn-close text-reset coloring"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3 custom-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="characters.html">Characters</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="About.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Watch.html">Watch</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Gallery.html">Gallery</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Main Content -->
+    <div class="container mt-5 pt-5">
+      <div class="row justify-content-center row justify-content-center align-items-start">
+        <!-- Image Column -->
+        <div class="col-12 col-md-6 mb-4 d-flex justify-content-center custom-gap">
+          <img
+            src="images/MV5BZDU0ZDVjOTItMDNkMy00YTI0LWFjYzItY2M1NjU5NjAzZGViXkEyXkFqcGc._V1_.jpg"
+            alt="Photo 1"
+            class="gallery-item"
+          />
+        </div>
+        
+        <!-- Text Column -->
+        <div class="col-12 col-md-6 dive mb-4  justify-content-center">
+          <h2>Smallville (TV Series)</h2>
+          <p class="p1">
+            Smallville was an American <br />
+            television series that debuted <br />
+            October 16, 2001 on the WB <br />
+            Television Network and ended in <br />
+            May 13, 2011. Created by Alfred <br />
+            Gough and Miles Millar, the series <br />
+            follows the adventures of a young <br />
+            Clark Kent, in the town of Smallville, <br />
+            Kansas, before he becomes <br />
+            Superman.
+          </p>
+        </div>
+      </div>
+    </div>
+<br>
+    <!-- Footer -->
+    <footer class="text-center text-white py-4">
+      <p class="mb-2">© 2025 Taim Alzuabi. All rights reserved</p>
+      <a class="text-decoration-none " href="Impressum.html"
+        >Impressum</a
+      >
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
